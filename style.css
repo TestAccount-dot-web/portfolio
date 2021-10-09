@@ -1,0 +1,72 @@
+body{
+  font-family: 'Stick No Bills', sans-serif;
+  background-color: black;
+  color: white;
+}
+a{
+  height: 100%;
+}
+#intro{
+  text-align: center;
+  font-size: 500%;
+  padding-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#mainbio{
+  font-size: 250%;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#link{
+  text-align: center;
+  padding-top: 5%;
+  font-size: 300%;
+}
+#logo{
+  height: 80px;
+}
+.nav-item{
+  font-size: 250%;
+}
+.readmore {
+  border-radius: 4px;
+  background-color: #24a0ed;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+.readmore span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: white;
+}
+
+.readmore span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.readmore:hover span {
+  padding-right: 25px;
+}
+
+.readmore:hover span:after {
+  opacity: 1;
+  right: 0;
+}
