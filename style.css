@@ -8,21 +8,22 @@ a{
 }
 #intro{
   text-align: center;
-  font-size: 500%;
+  font-size: 400%;
   padding-top: 5%;
   padding-left: 1%;
   padding-right: 1%;
 }
 #mainbio{
-  font-size: 250%;
+  font-size: 220%;
   text-align: center;
   padding-left: 1%;
   padding-right: 1%;
+  padding-top: 1%;
 }
 #link{
   text-align: center;
   padding-top: 5%;
-  font-size: 300%;
+  font-size: 175%;
 }
 #logo{
   height: 80px;
@@ -37,7 +38,7 @@ a{
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
-  padding: 20px;
+  padding: 15px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;

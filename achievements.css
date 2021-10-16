@@ -12,17 +12,17 @@ a{
 .nav-item{
   font-size: 250%;
 }
-#aboutme{
+.aheader{
   text-align: center;
-  font-size: 500%;
+  font-size: 400%;
   padding-top: 1%;
   padding-left: 1%;
   padding-right: 1%;
 }
-.aboutinfo{
+.achievements{
   text-align: center;
   font-size: 200%;
   padding-top: 1%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
