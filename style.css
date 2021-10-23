@@ -6,6 +6,12 @@ body{
 a{
   height: 100%;
 }
+#contact{
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
 #intro{
   text-align: center;
   font-size: 400%;
